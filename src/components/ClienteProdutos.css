@@ -1,0 +1,282 @@
+body,html{
+  margin: 0;
+  padding: 0;
+}
+
+.cliente-produtos {
+  background: #FFFFFF;
+  display: flex;
+  padding-top: 21px;
+  box-sizing: border-box;
+}
+.cliente-produtos .topo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  box-sizing: border-box;
+  margin-right: 15px;
+}
+.cliente-produtos .cards {
+  margin: 0 0 26px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 25px);
+  box-sizing: border-box;
+}
+.cliente-produtos .conteudo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+
+.cliente-produtos .imagem {
+  background: url('assets/images/E6Dae69B360547B3A395Add9A4D9Ea4CremovebgPreview1.png') 50% / cover no-repeat;
+  height: 127px;
+  flex-grow: 1;
+  flex-basis: 127px;
+}
+.cliente-produtos .pesquisar {
+  border-radius: 30px;
+  background: rgba(231, 231, 231, 0.68);
+  position: relative;
+  margin: 40px 0 41px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 10px 4px 18px;
+  height: fit-content;
+  flex-grow: 1;
+  flex-basis: 241px;
+  box-sizing: border-box;
+}
+.cliente-produtos .buscar-produtos {
+  opacity: 0.4;
+  margin: 9px 9.5px 9px 0;
+  display: inline-block;
+  width: 166.5px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(86, 86, 86, 0.82);
+}
+.cliente-produtos .image-1 {
+  background: url('assets/images/Image1.png') 50% / cover no-repeat;
+  width: 37px;
+  height: 37px;
+}
+.cliente-produtos .customizada {
+  border-radius: 30px;
+  background: #0C7B2C;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 11px 17.4px 10px 17px;
+  flex-grow: 1;
+  flex-basis: 160px;
+  box-sizing: border-box;
+}
+.cliente-produtos .customizada-1 {
+  margin-bottom: 13px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.cliente-produtos .visualizar {
+  margin-right: 0.6px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.cliente-produtos .image-11 {
+  background: url('assets/images/Image11.png') 50% / cover no-repeat;
+  margin: 0 0 14px 0.4px;
+  width: 64px;
+  height: 64px;
+}
+.cliente-produtos .legumes {
+  border-radius: 30px;
+  background: #0C7B2C;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 11px 0 10px 0;
+  flex-grow: 1;
+  flex-basis: 160px;
+  box-sizing: border-box;
+}
+.cliente-produtos .legumes-1 {
+  margin-bottom: 13px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.cliente-produtos .image-9 {
+  background: url('assets/images/Image9.png') 50% / cover no-repeat;
+  margin-left: 0.6px;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 14px;
+}
+.cliente-produtos .frutas {
+  border-radius: 30px;
+  background: #0C7B2C;
+  position: relative;
+  margin-right: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 0 10px 0;
+  flex-grow: 1;
+  flex-basis: 160px;
+  box-sizing: border-box;
+}
+.cliente-produtos .frutas-1 {
+  margin: 0 1.3px 13px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.cliente-produtos .fruit-1 {
+  background: url('assets/images/Fruit1.png') 50% / cover no-repeat;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 14px;
+}
+.cliente-produtos .cesta-pequena {
+  border-radius: 30px;
+  background: #0C7B2C;
+  position: relative;
+  margin-right: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 0 10px 0;
+  flex-grow: 1;
+  flex-basis: 160px;
+  box-sizing: border-box;
+}
+.cliente-produtos .pequena {
+  margin: 0 0 18px 0.7px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.cliente-produtos .image-10 {
+  background: url('assets/images/Image10.png') 50% / cover no-repeat;
+  margin: 0 0 14px 1px;
+  width: 64px;
+  height: 64px;
+}
+.cliente-produtos .cesta-grande {
+  border-radius: 30px;
+  background: #0C7B2C;
+  position: relative;
+  margin-right: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 11px 0 10px 0;
+  flex-grow: 1;
+  flex-basis: 160px;
+  box-sizing: border-box;
+}
+.cliente-produtos .grande {
+  margin: 0 0.9px 13px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.cliente-produtos .vegetables-1 {
+  background: url('assets/images/Vegetables1.png') 50% / cover no-repeat;
+  margin: 0 0 14px 1px;
+  width: 64px;
+  height: 64px;
+}
+.cliente-produtos .cesta-mdia {
+  border-radius: 30px;
+  background: #0C7B2C;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 11px 0 10px 0;
+  flex-grow: 1;
+  flex-basis: 160px;
+  box-sizing: border-box;
+}
+.cliente-produtos .basket-1 {
+  background: url('assets/images/Basket1.png') 50% / cover no-repeat;
+  margin: 0 0 14px 1px;
+  width: 64px;
+  height: 64px;
+}
+.cliente-produtos .mdia {
+  margin: 0 0.4px 13px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.cliente-produtos .menu {
+  background: #0C5D23;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 14px 27px 14px 25px;
+  box-sizing: border-box;
+}
+.cliente-produtos .icon-home {
+  background: url('assets/images/IconHome.png') 50% / cover no-repeat;
+  width: 44px;
+  height: 44px;
+}
+.cliente-produtos .botaoProdutos{
+  background: url('assets/images/Image12.png') 50% / cover no-repeat;
+  width: 44px;
+  height: 44px;
+}
+.cliente-produtos .botaoPedidos {
+  background: url('assets/images/Image13.png') 50% / cover no-repeat;
+  width: 44px;
+  height: 44px;
+}
+.cliente-produtos .botaoSair {
+  background: url('assets/images/Image14.png') 50% / cover no-repeat;
+  width: 44px;
+  height: 44px;
+}
+

@@ -1,2 +1,1 @@
-# aplicativo-comida-organica
-Aplicativo para atividade de Engenharia de Software
+O produto que da pra abrir e visualizar é a cesta pequena
